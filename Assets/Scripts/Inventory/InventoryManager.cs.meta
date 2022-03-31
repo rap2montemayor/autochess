@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3a58863092055bf419b97267c8dcbbcc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - database: {instanceID: 0}
+  - benchObj: {instanceID: 0}
+  - boardObj: {instanceID: 0}
+  - itemsObj: {instanceID: 0}
+  - unitsObj: {instanceID: 0}
+  - canvas: {instanceID: 0}
+  - unitUIPrefab: {fileID: 7793185985240272207, guid: 90806b749bcd4eb4ba49a7919dc5d8fe, type: 3}
+  - itemUIPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

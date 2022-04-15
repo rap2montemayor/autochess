@@ -55,10 +55,13 @@ public class InventoryManager : MonoBehaviour {
 
     //don't really like this but oh well
     public void Update(){
-        if (Input.GetKeyDown(KeyCode.Tab) && canToggleVisibility && isVisible){
-            Hide();
-        }else{
-            Show();
+        if (Input.GetKeyDown(KeyCode.Tab) && canToggleVisibility){
+            if (isVisible){
+                Hide();
+            }else{
+                Show();
+            }
+            
         }
     }
 

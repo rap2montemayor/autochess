@@ -63,10 +63,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   board:
+  - {fileID: 11400000, guid: fb522c695dd74badf88d0452177d5e92, type: 2}
+  - {fileID: 11400000, guid: fb522c695dd74badf88d0452177d5e92, type: 2}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: fb522c695dd74badf88d0452177d5e92, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

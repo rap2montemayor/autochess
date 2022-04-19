@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OverworldTest/OverworldTestOLD.unity
     guid: 9f44c83dc2bd659b4aa32a0f166ba001
+  - enabled: 1
+    path: Assets/Scenes/Battle/AutoChess.unity
+    guid: f2d54b72dc2427344974d7179355693d
   m_configObjects: {}

@@ -6,6 +6,6 @@ public class ActivatorBattle : Activator
 {
     public override void Activate()
     {
-        SceneLoader.LoadScene("AutoChess");
+        SceneLoader.LoadScene("Battle");
     }
 }

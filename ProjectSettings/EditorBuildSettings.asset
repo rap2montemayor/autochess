@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battle/AutoChess.unity
     guid: f2d54b72dc2427344974d7179355693d
+  - enabled: 1
+    path: Assets/Scenes/Battle/Battle.unity
+    guid: 343c8591ff4bfa746b36f8304605bd2e
   m_configObjects: {}

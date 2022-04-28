@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Inventory Database
   m_EditorClassIdentifier: 
   units:
-  - {fileID: 11400000, guid: 3783ae1e0891076feaf233f34d99d613, type: 2}
+  - {fileID: 11400000, guid: fb522c695dd74badf88d0452177d5e92, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 56b61af30bd17b7859dec758633d135f, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

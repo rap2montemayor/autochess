@@ -14,24 +14,18 @@ public class Unit : Data {
     public int amr_current;
 
     [SerializeField]
-    public int res_max;
-    public int res_current;
-
-    [SerializeField]
     public int atkphys_max;
     public int atkphys_current;
 
     [SerializeField]
-    public int atkmag_max;
-    public int atkmag_current;
-
-    [SerializeField]
-    public int spd_max;
-    public int spd_current;
-
-    [SerializeField]
     public int crt_max;
     public int crt_current;
+
+    [SerializeField]
+    public int range;
+    
+    [SerializeField]
+    public int evasion;
 
     [SerializeField]
     public bool isEnemy;

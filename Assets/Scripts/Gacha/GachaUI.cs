@@ -23,17 +23,33 @@ public class GachaUI : MonoBehaviour{
 
     private Sprite default_icon;
 
+    private bool showing;
+
     public void Start(){
         default_icon = prizeImage.sprite;
         canvasGroup = GetComponent<CanvasGroup>();
+        showing = false;
         Hide();
     }
 
+    public void Update() {
+        if (Input.GetKeyDown(KeyCode.G)) {
+            if (showing) {
+                OnButtonExit();
+            } else {
+                Show();
+            }
+        }
+    }
+
     public void Show(){
+        showing = true;
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
     }
+
     public void Hide(){
+        showing = false;
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
     }

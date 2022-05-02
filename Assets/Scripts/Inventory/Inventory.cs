@@ -86,4 +86,10 @@ public class Inventory : MonoBehaviour{
     public int BoardCoordToIndex(int x, int y){
         return (BOARD_PRESET_W * y) + x;
     }
+
+    public Vector2Int IndexToBoardCoord(int idx) {
+        int y = idx / BOARD_PRESET_W;
+        int x = idx - (y*BOARD_PRESET_W);
+        return new Vector2Int(x, y);
+    }
 }

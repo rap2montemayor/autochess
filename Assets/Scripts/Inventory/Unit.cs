@@ -6,32 +6,26 @@ using UnityEngine;
 public class Unit : Data {
 
     [SerializeField]
-    private int hp_max;
-    private int hp_current;
+    public int hp_max;
+    public int hp_current;
 
     [SerializeField]
-    private int amr_max;
-    private int amr_current;
+    public int amr_max;
+    public int amr_current;
 
     [SerializeField]
-    private int res_max;
-    private int res_current;
+    public int atkphys_max;
+    public int atkphys_current;
 
     [SerializeField]
-    private int atkphys_max;
-    private int atkphys_current;
+    public int crt_max;
+    public int crt_current;
 
     [SerializeField]
-    private int atkmag_max;
-    private int atkmag_current;
-
+    public int range;
+    
     [SerializeField]
-    private int spd_max;
-    private int spd_current;
-
-    [SerializeField]
-    private int crt_max;
-    private int crt_current;
+    public int evasion;
 
     [SerializeField]
     public bool isEnemy;

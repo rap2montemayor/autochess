@@ -46,6 +46,12 @@ public class InvList<T> : IEnumerator<T> where T : Data{
         return false;
     }
 
+    public void ClearAll(){
+        for (int i = 0; i < length; ++i){
+            arr[i] = null;
+        }
+    }
+
     public void Swap(int index_a, int index_b){
         (arr[index_a], arr[index_b]) = (arr[index_b], arr[index_a]);
     }

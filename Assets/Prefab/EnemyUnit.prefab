@@ -89,5 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33d7f350b7bcb745859e3fd2ff39d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitDataReference: {fileID: 11400000, guid: 3783ae1e0891076feaf233f34d99d613, type: 2}
+  unitData: {fileID: 0}
   enemies: []
   target: {fileID: 0}

@@ -12,7 +12,7 @@ public class SetupBattle : MonoBehaviour {
     private Vector2 upperLeft;
     private Vector2 spriteSize;
 
-    void Awake() {
+    void Start() {
         upperLeft = new Vector2(0f, 0f);
         spriteSize = new Vector2(36.25f, 36.25f);
 
@@ -34,6 +34,8 @@ public class SetupBattle : MonoBehaviour {
             // instantiate, set sprite
             GameObject obj = Instantiate(AllyUnitPrefab, transform);
             obj.GetComponent<Image>().sprite = board.At(i).icon;
+            obj.GetComponent<AllyUnitBehavior>().unitDataReference = board.At(i);
+
             obj.transform.localPosition = pos;
         }
     }

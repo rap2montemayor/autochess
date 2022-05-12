@@ -5,6 +5,9 @@ using UnityEngine.UI;
 public class GachaUI : MonoBehaviour{
 
     [SerializeField]
+    private Text rollsLeftText;
+
+    [SerializeField]
     private Button rollButton;
 
     [SerializeField]
@@ -25,10 +28,14 @@ public class GachaUI : MonoBehaviour{
 
     private bool showing;
 
+    [SerializeField]
+    private int rollsLeft;
+
     public void Start(){
         default_icon = prizeImage.sprite;
         canvasGroup = GetComponent<CanvasGroup>();
         showing = false;
+        UpdateRollsLeft();
         Hide();
     }
 
@@ -55,20 +62,28 @@ public class GachaUI : MonoBehaviour{
     }
 
     public void OnButtonRoll(){
-        // roll
-        Unit new_unit = gachaDatabase.PullUnit();
+        if (rollsLeft > 0){
+            // roll
+            Unit new_unit = gachaDatabase.PullUnit();
 
-        // display new unit
-        prizeImage.sprite = new_unit.icon;
-        prizeText.text = "Congrats, you got " + new_unit.name_data + "!";
+            // display new unit
+            prizeImage.sprite = new_unit.icon;
+            prizeText.text = "Congrats, you got " + new_unit.name_data + "!";
 
-        // add it to inventory
-        Inventory.instance.units.Add(new_unit);
+            // add it to inventory
+            Inventory.instance.units.Add(new_unit);
+            rollsLeft--;
+            UpdateRollsLeft();
+        }
     }
     
     public void OnButtonExit(){
         prizeImage.sprite = default_icon;
         prizeText.text = "";
         Hide();
+    }
+
+    public void UpdateRollsLeft(){
+        rollsLeftText.text = "Pulls left: " + rollsLeft;
     }
 }

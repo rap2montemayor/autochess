@@ -16,6 +16,10 @@ public class Dialogue : MonoBehaviour
     void Awake(){                           //SINGLETONS
         if (dialogue == null){
             dialogue = this;
+            //setup
+            story = InkStory.GetInkStory();
+            lastPressTime = Time.fixedTime;
+            character = null;
         }else{
             Destroy(this);
         }
@@ -50,9 +54,7 @@ public class Dialogue : MonoBehaviour
     
     
     void Start(){
-        story = InkStory.GetInkStory();
-        lastPressTime = Time.fixedTime;
-        character = null;
+
     }
 
     void Update(){

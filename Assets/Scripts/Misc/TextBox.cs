@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent (typeof(CanvasGroup))]
+[RequireComponent (typeof(AudioSource))]
 public class TextBox : MonoBehaviour
 {
     /*
@@ -12,9 +13,10 @@ public class TextBox : MonoBehaviour
     */
     
     public Text boxText;
-    //public AudioClip click;
+    public AudioClip click;
 
     private CanvasGroup fader;
+    private AudioSource click_source;
     private bool boxActive; // is the box currently being displayed? 
 
     private Coroutine showingText;
@@ -24,6 +26,7 @@ public class TextBox : MonoBehaviour
 
     void Awake(){
         fader = GetComponent<CanvasGroup>();
+        click_source = GetComponent<AudioSource>();
         fader.alpha = 0;
         boxActive = false;
     }
@@ -86,7 +89,9 @@ public class TextBox : MonoBehaviour
                 outputText += richText;
 
             }else{
-                //AudioBoss.playOneShot(click, 0.1f);
+                if (click != null){
+                    click_source.PlayOneShot(click, 0.05f);
+                }
                 outputText += letter;
                 boxText.text = outputText;
                 for(int j = openTags.Count; j > 0; j--){

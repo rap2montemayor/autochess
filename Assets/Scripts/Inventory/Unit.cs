@@ -36,11 +36,15 @@ public class Unit : Data {
             hp_current = hp_max;
         }
         if (hp_current < 0){
-            // UNIT DIES! DO SOMETHING
+            hp_current = 0;
         }
     }
 
     public override string GetSpecialDescription(){
         return ("UNIT STATS: [pls edit GetSpecialDescription to display stats]");
+    }
+
+    public Unit Copy() {
+        return (Unit) this.MemberwiseClone();
     }
 }

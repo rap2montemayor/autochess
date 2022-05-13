@@ -108,6 +108,7 @@ public class Dialogue : MonoBehaviour
 
 
     private void NextDialogue(){
+        ResetInputDelay();
         //IF DIALOGUE NOT FINISHED DISPLAYING, DISPLAY NOW
         if (!textBox.ShowTextDone()){ 
             if (!disabledSkip){textBox.DisplayTextNow(nextLine);}
@@ -118,7 +119,7 @@ public class Dialogue : MonoBehaviour
             if (!inChoice){
                 inChoice = true;
                 currentChoice = 0;
-                textBox.DisplayTextNow(story.GetChoiceText(currentChoice) + GetChoiceInstructions());
+                textBox.DisplayTextSlowly(story.GetChoiceText(currentChoice) + GetChoiceInstructions());
                 return;
             }else{
                 story.ChooseChoice(currentChoice);

@@ -16,13 +16,14 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: a6f7c69d83abf4a4fba7175bc1cfce5c, type: 3}
   description: Beefed up for your beefs.
   hp_max: 500
-  hp_current: 0
+  hp_current: 500
   amr_max: 15
-  amr_current: 0
+  amr_current: 15
   atkphys_max: 10
-  atkphys_current: 0
+  atkphys_current: 10
   crt_max: 1
-  crt_current: 0
+  crt_current: 1
   range: 2
   evasion: 2
+  attack_cooldown: 1
   isEnemy: 0

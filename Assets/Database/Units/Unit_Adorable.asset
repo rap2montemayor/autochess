@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6627823658cf5ee0cae276d60097662c, type: 3}
-  m_Name: Unit_Police
+  m_Name: Unit_Adorable
   m_EditorClassIdentifier: 
-  name_data: PULIZ
-  icon: {fileID: 21300000, guid: cf5a0ada84625bee3a2dbe77afdd5273, type: 3}
-  description: 69
-  hp_max: 69
-  hp_current: 0
-  amr_max: 69
-  amr_current: 0
-  atkphys_max: 69
-  atkphys_current: 0
-  crt_max: 69
-  crt_current: 0
-  range: 69
-  evasion: 69
-  attack_cooldown: 6.9
+  name_data: Plushy Toy
+  icon: {fileID: 21300000, guid: b85280d791e9b250a80d0c3d73341010, type: 3}
+  description: 'Too adorable to kill. Extremely dangerous. '
+  hp_max: 200
+  hp_current: 125
+  amr_max: 0
+  amr_current: 75
+  atkphys_max: 500
+  atkphys_current: 25
+  crt_max: 100
+  crt_current: 100
+  range: 45
+  evasion: 20
+  attack_cooldown: 10
   isEnemy: 0

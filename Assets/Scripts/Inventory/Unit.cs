@@ -5,20 +5,20 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Unit", menuName = "ScriptableObjects/Unit")]
 public class Unit : Data {
 
-    [SerializeField]
     public int hp_max;
+    [HideInInspector]
     public int hp_current;
 
-    [SerializeField]
     public int amr_max;
+    [HideInInspector]
     public int amr_current;
 
-    [SerializeField]
     public int atkphys_max;
+    [HideInInspector]
     public int atkphys_current;
 
-    [SerializeField]
     public int crt_max;
+    [HideInInspector]
     public int crt_current;
 
     [SerializeField]
@@ -27,8 +27,12 @@ public class Unit : Data {
     [SerializeField]
     public int evasion;
 
+    public float attack_cooldown = 1;
+
     [SerializeField]
     public bool isEnemy;
+
+
 
     public void ModHP(int hp_mod){
         hp_current += hp_mod;

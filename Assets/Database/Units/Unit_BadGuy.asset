@@ -16,9 +16,13 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: fa8472f24d59798358dcc489d9f0c1a3, type: 3}
   description: insert description here
   hp_max: 50
+  hp_current: 50
   amr_max: 1
-  res_max: 1
+  amr_current: 1
   atkphys_max: 12
-  atkmag_max: 1
-  spd_max: 1
+  atkphys_current: 12
   crt_max: 1
+  crt_current: 1
+  range: 25
+  evasion: 25
+  isEnemy: 0

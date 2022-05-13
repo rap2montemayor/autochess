@@ -25,4 +25,5 @@ MonoBehaviour:
   crt_current: 0
   range: 10
   evasion: 15
+  attack_cooldown: 1
   isEnemy: 0

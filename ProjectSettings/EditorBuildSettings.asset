@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/WorldArea01.unity
     guid: 7e7a3b3e7b95f4330af144a331cf6262
+  - enabled: 1
+    path: Assets/Scenes/Game/WorldArea02.unity
+    guid: 1a840121c5912a62d92bc9ff40103266
+  - enabled: 1
+    path: Assets/Scenes/Game/BattleArea01.unity
+    guid: 9f29a02f237b79214974dfb0c9a5ef07
   m_configObjects: {}

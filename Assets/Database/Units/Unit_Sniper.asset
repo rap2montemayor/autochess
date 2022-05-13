@@ -19,10 +19,11 @@ MonoBehaviour:
   hp_current: 0
   amr_max: 3
   amr_current: 0
-  atkphys_max: 25
+  atkphys_max: 75
   atkphys_current: 0
   crt_max: 3
   crt_current: 0
   range: 10
   evasion: 15
+  attack_cooldown: 3
   isEnemy: 0

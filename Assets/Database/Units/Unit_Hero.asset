@@ -16,9 +16,13 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 3cb53f608d2892a48951b957bb6f816e, type: 3}
   description: Impossible to defeat
   hp_max: 9999
+  hp_current: 9999
   amr_max: 9999
-  res_max: 9999
+  amr_current: 0
   atkphys_max: 9999
-  atkmag_max: 9999
-  spd_max: 9999
+  atkphys_current: 0
   crt_max: 9999
+  crt_current: 0
+  range: 0
+  evasion: 0
+  isEnemy: 0

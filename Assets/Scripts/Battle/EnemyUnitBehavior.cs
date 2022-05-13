@@ -26,6 +26,7 @@ public class EnemyUnitBehavior : MonoBehaviour
         unitData.atkphys_current = unitData.atkphys_max;
         unitData.crt_current = unitData.crt_max;
         unitData.hp_current = unitData.hp_max;
+        cooldown = unitData.attack_cooldown;
     }
 
     void Start() {

@@ -27,6 +27,7 @@ public class TextBox : MonoBehaviour
     void Awake(){
         fader = GetComponent<CanvasGroup>();
         click_source = GetComponent<AudioSource>();
+        showingText = null;
         fader.alpha = 0;
         boxActive = false;
     }

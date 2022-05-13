@@ -472,7 +472,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4278895116143608848, guid: b9aa5c13de9f042d193ab7ec4729e16b, type: 3}
       propertyPath: nextScene
-      value: WorldArea01
+      value: WorldArea03
       objectReference: {fileID: 0}
     - target: {fileID: 4278895116143608851, guid: b9aa5c13de9f042d193ab7ec4729e16b, type: 3}
       propertyPath: m_LocalScale.x
@@ -612,10 +612,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 613874431}
     m_Modifications:
-    - target: {fileID: 4278895116143608848, guid: b9aa5c13de9f042d193ab7ec4729e16b, type: 3}
-      propertyPath: nextScene
-      value: WorldArea03
-      objectReference: {fileID: 0}
     - target: {fileID: 4278895116143608848, guid: b9aa5c13de9f042d193ab7ec4729e16b, type: 3}
       propertyPath: nextDoorID
       value: 1

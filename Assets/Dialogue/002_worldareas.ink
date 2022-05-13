@@ -59,3 +59,7 @@ You will only fight with units on your board.
 Recovery area up ahead
 Gacha units & hospital
 ->DONE
+
+===002_fishwarning===
+Free sashimi up ahead
+->DONE

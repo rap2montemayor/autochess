@@ -7,8 +7,12 @@ using UnityEngine.Events;
 public class DialogueOnStart : MonoBehaviour
 {
     public string inkStoryDialogue;
+    private static bool doOnce = false;
     void Start()
     {
-        Dialogue.StartDialogue(inkStoryDialogue);
+        if (!doOnce){
+            Dialogue.StartDialogue(inkStoryDialogue);
+            doOnce = true;
+        }
     }
 }

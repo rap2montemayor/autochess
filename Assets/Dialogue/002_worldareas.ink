@@ -54,3 +54,8 @@ WARNING: <color=red>EXTREME DANGER UP AHEAD</color>
 You should press TAB and move units from your inventory to your BOARD.
 You will only fight with units on your board.
 ->DONE
+
+===002_recoverysign===
+Recovery area up ahead
+Gacha units & hospital
+->DONE

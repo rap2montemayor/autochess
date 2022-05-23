@@ -474,9 +474,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1316168722390839969, guid: a80961e3eec2264daa0145490b780a39, type: 3}
+      propertyPath: rollsLeft
+      value: 999
+      objectReference: {fileID: 0}
     - target: {fileID: 1316168722390839971, guid: a80961e3eec2264daa0145490b780a39, type: 3}
       propertyPath: m_Name
-      value: Gacha
+      value: VegasGacha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908337080229730685, guid: a80961e3eec2264daa0145490b780a39, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a80961e3eec2264daa0145490b780a39, type: 3}

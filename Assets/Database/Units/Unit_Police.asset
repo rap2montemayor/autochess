@@ -16,10 +16,14 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: cf5a0ada84625bee3a2dbe77afdd5273, type: 3}
   description: 69
   hp_max: 69
+  hp_current: 0
   amr_max: 69
-  res_max: 69
+  amr_current: 0
   atkphys_max: 69
-  atkmag_max: 69
-  spd_max: 69
+  atkphys_current: 0
   crt_max: 69
+  crt_current: 0
+  range: 69
+  evasion: 69
+  attack_cooldown: 6.9
   isEnemy: 0

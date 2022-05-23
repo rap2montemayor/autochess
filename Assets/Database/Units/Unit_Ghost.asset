@@ -16,13 +16,13 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 00bc68f96f8f23c4baa29db82e29311e, type: 3}
   description: You cannot hit it
   hp_max: 15
-  hp_current: 0
+  hp_current: 15
   amr_max: 0
   amr_current: 0
   atkphys_max: 5
-  atkphys_current: 0
+  atkphys_current: 5
   crt_max: 3
-  crt_current: 0
+  crt_current: 3
   range: 15
   evasion: 65
   isEnemy: 0

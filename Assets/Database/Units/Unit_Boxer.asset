@@ -16,13 +16,14 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: bf2c3d22b04a7e443ae5d524d1171e77, type: 3}
   description: Should've not pursued politics.
   hp_max: 100
-  hp_current: 0
+  hp_current: 100
   amr_max: 10
-  amr_current: 0
-  atkphys_max: 20
-  atkphys_current: 0
+  amr_current: 10
+  atkphys_max: 10
+  atkphys_current: 20
   crt_max: 3
-  crt_current: 0
+  crt_current: 3
   range: 10
   evasion: 20
+  attack_cooldown: 0.5
   isEnemy: 0

@@ -5,3 +5,5 @@
 
 
 INCLUDE 000_testing.ink
+INCLUDE 002_worldareas.ink
+

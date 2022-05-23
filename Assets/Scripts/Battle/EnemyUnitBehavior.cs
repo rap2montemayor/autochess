@@ -35,7 +35,8 @@ public class EnemyUnitBehavior : MonoBehaviour
         InitializeUnitData();
         GetComponent<Image>().sprite = unitData.icon;
         atkRange = 0.1f * Mathf.Max(unitData.range, 1);
-        moveSpeed = 0.25f * Mathf.Max(unitData.evasion, 1);
+        // moveSpeed = 0.25f * Mathf.Max(unitData.evasion, 1);
+        moveSpeed = 1;
     }
 
     void Update() {

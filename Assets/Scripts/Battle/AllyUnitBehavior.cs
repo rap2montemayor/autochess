@@ -111,7 +111,7 @@ public class AllyUnitBehavior : MonoBehaviour
     float landing (Vector3 pos, Vector3 enemyPos, float atkRange){
         float distance = Vector3.Distance(pos, enemyPos);
         distance -= atkRange;
-        return Mathf.Abs(distance);
+        return distance;
     }
 
     GameObject closest(){

@@ -627,6 +627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrevRoomDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4278895117034357440, guid: b9aa5c13de9f042d193ab7ec4729e16b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4278895117034357471, guid: b9aa5c13de9f042d193ab7ec4729e16b, type: 3}
       propertyPath: m_RootOrder
       value: 2

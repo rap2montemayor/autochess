@@ -35,7 +35,8 @@ public class AllyUnitBehavior : MonoBehaviour
         InitializeUnitData();
         GetComponent<Image>().sprite = unitData.icon;
         atkRange = 0.1f * Mathf.Max(unitData.range, 1);
-        moveSpeed = 0.25f * Mathf.Max(unitData.evasion, 1);
+        // moveSpeed = 0.25f * Mathf.Max(unitData.evasion, 1);
+        moveSpeed = 1;
     }
 
     void Update() {
@@ -110,7 +111,7 @@ public class AllyUnitBehavior : MonoBehaviour
     float landing (Vector3 pos, Vector3 enemyPos, float atkRange){
         float distance = Vector3.Distance(pos, enemyPos);
         distance -= atkRange;
-        return Mathf.Abs(distance);
+        return distance;
     }
 
     GameObject closest(){
